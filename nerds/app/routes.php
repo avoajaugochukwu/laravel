@@ -16,4 +16,4 @@ Route::get('/', function()
 	// View::make('index');
 });
 
-Route::resource('nerds', 'NerdController');
+Route::resource('nerds', 'NerdsController');
